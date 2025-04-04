@@ -11,7 +11,26 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-    generator: 'v0.dev'
+  generator: 'v0dev',
+  openGraph: {
+    title: "@0xVEER Action Figure | Limited Edition",
+    description: "Pre-order your exclusive @0xVEER action figure. Only 100 will ever be made!",
+    type: "website",
+    images: [
+      {
+        url: "/veer-op.png",
+        width: 1024,
+        height: 1024,
+        alt: "VEER Action Figure Preview"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "@0xVEER Action Figure | Limited Edition",
+    description: "Pre-order your exclusive @0xVEER action figure. Only 100 will ever be made!",
+    images: ["/veer-op.png"]
+  }
 }
 
 export default function RootLayout({
