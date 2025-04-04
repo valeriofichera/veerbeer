@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/veer-op.png",
+        url: "/veer-og.png",
         width: 1024,
         height: 1024,
         alt: "VEER Action Figure Preview"
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     ]
   },
   twitter: {
-    card: "summary_large_image",
-    title: "@0xVEER Action Figure | Limited Edition",
-    description: "Pre-order your exclusive @0xVEER action figure. Only 100 will ever be made!",
-    images: ["/veer-op.png"]
-  }
-}
+        card: "summary_large_image",
+        title: "@0xVEER Action Figure | Limited Edition",
+        description: "Pre-order your exclusive @0xVEER action figure. Only 100 will ever be made!",
+        images: ["/veer-og.png"]
+      }
+    }
 
 export default function RootLayout({
   children,
