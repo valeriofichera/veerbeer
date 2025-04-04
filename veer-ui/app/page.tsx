@@ -45,6 +45,7 @@ export default function Home() {
                   toToken={getAddress(mantleMNT.token)}
                   toAddress={getAddress(walletAddress)}
                   toUnits={(50).toFixed(2)}
+                  paymentOptions={["Coinbase"]}
                   onPaymentCompleted={() => {
                     console.log('Payment completed')
                     setShowConfetti(true)
