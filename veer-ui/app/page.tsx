@@ -53,8 +53,8 @@ export default function Home() {
                 >
                   {({ show, hide }) => (
                 <Button className="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg py-6 px-8 font-mono border-2 border-black" onClick={show}>
-                      Buy VEER Figurine Now
-                    </Button>
+                      Buy Now
+                </Button>
                   )}
                 </DaimoPayButton.Custom>
                 </div>
